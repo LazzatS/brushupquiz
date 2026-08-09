@@ -1,11 +1,11 @@
-# Privacy Policy — BrushUp
+# Privacy Policy — BrushUpQuiz
 
 **Effective date**: August 9, 2026
 **Last updated**: August 9, 2026
 
-BrushUp ("we", "us", "the app") is a classroom quiz application. This Privacy Policy explains what information we collect, how we use it, and the choices you have.
+BrushUpQuiz ("we", "us", "the app") is a classroom quiz application. This Privacy Policy explains what information we collect, how we use it, and the choices you have.
 
-We designed BrushUp to collect as little personal information as possible. There is **no account with email or password**, and we do not ask for your real name.
+We designed BrushUpQuiz to collect as little personal information as possible. There is **no account with email or password**, and we do not ask for your real name.
 
 ---
 
@@ -26,7 +26,7 @@ We designed BrushUp to collect as little personal information as possible. There
 
 ### 1.3 Camera
 
-BrushUp uses the camera **only** when a student chooses to scan a join-code QR. Frames are processed on-device by AVFoundation and are not stored, transmitted, or shared. No photos or media are collected.
+BrushUpQuiz uses the camera **only** when a student chooses to scan a join-code QR. Frames are processed on-device by AVFoundation and are not stored, transmitted, or shared. No photos or media are collected.
 
 ### 1.4 What we do NOT collect
 
@@ -88,7 +88,7 @@ We are not a "business" as defined by the CCPA (we do not meet the revenue or da
 
 ## 6. Third-party services
 
-BrushUp uses services provided by Google via Firebase:
+BrushUpQuiz uses services provided by Google via Firebase:
 
 | Service | Purpose | Data handled |
 |---|---|---|
@@ -116,7 +116,7 @@ We do not integrate any advertising SDK.
 
 ## 8. Children
 
-BrushUp may be used by minors in classroom settings. We do **not** knowingly collect personal information from children. All identifiers are opaque, and no field asks for a child's name, email, address, phone, photo, or precise location.
+BrushUpQuiz may be used by minors in classroom settings. We do **not** knowingly collect personal information from children. All identifiers are opaque, and no field asks for a child's name, email, address, phone, photo, or precise location.
 
 If you are a parent, guardian, or school administrator and believe a minor has provided data you want removed, contact **brushupquiz@gmail.com** and we will act promptly.
 
