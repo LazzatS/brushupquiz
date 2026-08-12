@@ -20,9 +20,9 @@ We designed BrushUpQuiz to collect as little personal information as possible. T
 
 ### 1.2 Information generated automatically
 
-- **Anonymous user ID** — Firebase Authentication issues an opaque, device-scoped identifier when you first launch the app. It has no link to your real identity and cannot be used to contact you outside the app.
-- **Usage data** — Firebase Analytics records app opens, sessions, screen views, device model, OS version, app version, approximate country (from IP), and language. Recorded against the anonymous identifier only.
-- **Diagnostic data** — Firebase Crashlytics records crash reports (stack traces, device model, OS version, timestamp) when the app crashes. No personal data is intentionally included in crash reports.
+- **Anonymous user ID** — an opaque, device-scoped identifier issued when you first launch the app. It has no link to your real identity and cannot be used to contact you outside the app.
+- **Usage data** — app opens, sessions, screen views, device model, OS version, app version, approximate country (from IP), and language. Recorded against the anonymous identifier only.
+- **Diagnostic data** — crash reports (stack traces, device model, OS version, timestamp) collected when the app crashes. No personal data is intentionally included in crash reports.
 
 ### 1.3 Camera
 
@@ -86,22 +86,22 @@ We are not a "business" as defined by the CCPA (we do not meet the revenue or da
 
 ---
 
-## 6. Third-party services
+## 6. Third-party service providers
 
-BrushUpQuiz uses services provided by Google via Firebase:
+To operate the app we rely on services provided by Google (Firebase platform). We disclose them here so you know who processes your data:
 
-| Service | Purpose | Data handled |
+| Purpose | Provider | Data handled |
 |---|---|---|
-| Firebase Authentication (Anonymous) | Issues the opaque device-scoped user ID | Anonymous UID only |
-| Cloud Firestore | Stores nicknames, quizzes, and responses | User content |
-| Firebase Analytics | Aggregate usage metrics | Anonymised device/session events |
-| Firebase Crashlytics | Crash reports | Stack traces, device metadata |
-| Firebase AI (Gemini) | Optional AI-assisted quiz generation | Instructor-provided topic and objective text |
-| Firebase App Check | Device attestation to prevent abuse | Device attestation token |
+| Anonymous authentication | Firebase Authentication | Anonymous user identifier |
+| Storage of nicknames, quizzes, and responses | Cloud Firestore | User content |
+| Aggregate usage metrics | Firebase Analytics | Anonymised session/device events |
+| Crash and diagnostic reports | Firebase Crashlytics | Stack traces, device metadata |
+| AI-assisted quiz generation | Firebase AI (Gemini model) | Instructor-provided topic and objective text |
+| Device attestation to prevent abuse | Firebase App Check | Device attestation token only |
 
 Google's handling of this data is governed by the [Google Privacy Policy](https://policies.google.com/privacy).
 
-We do not integrate any advertising SDK.
+We do not integrate any advertising SDK, and we do not share your data with any third party beyond the providers listed above.
 
 ---
 
@@ -109,8 +109,8 @@ We do not integrate any advertising SDK.
 
 - **Anonymous accounts** persist on your device until you uninstall the app or clear its data. There is no cross-device account.
 - **Quizzes and responses** stored in Cloud Firestore remain indefinitely and are keyed by opaque anonymous IDs.
-- **Analytics and crash data** are retained per Google's default Firebase retention policies (typically up to 14 months for Analytics; longer for aggregate data).
-- **On request**, if you can supply your anonymous user ID (or the join code of a quiz you created), we will bulk-delete the associated Firestore data. Email **brushupquiz@gmail.com**.
+- **Analytics and crash data** are retained per our providers' default retention policies (typically up to 14 months for analytics; longer for aggregate data).
+- **On request**, if you can supply your anonymous user ID (or the join code of a quiz you created), we will bulk-delete the associated data from our storage. Email **brushupquiz@gmail.com**.
 
 ---
 
@@ -126,15 +126,15 @@ We comply with the U.S. Children's Online Privacy Protection Act (COPPA) by desi
 
 ## 9. International data transfers
 
-Firebase services are provided by Google and may store data on servers located outside your country, including in the United States. Google implements safeguards (such as Standard Contractual Clauses) to protect international transfers. By using the app you understand that your data may be processed in these locations.
+Our service providers (see §6) may store data on servers located outside your country, including in the United States. They implement safeguards (such as Standard Contractual Clauses) to protect international transfers. By using the app you understand that your data may be processed in these locations.
 
 ---
 
 ## 10. Security
 
-We rely on Google's platform-level security controls (encryption in transit via TLS, encryption at rest, Firebase Security Rules limiting access to your own data, and Firebase App Check for device attestation). We do not knowingly transmit personal data outside these services.
+We rely on industry-standard security controls: encryption in transit via TLS, encryption at rest, per-user access rules that limit each user to their own data, and device attestation to prevent abuse of the service. We do not knowingly transmit personal data outside the providers listed in §6.
 
-No system is 100 % secure. If you become aware of a vulnerability, please email **brushupquiz@gmail.com**.
+No system is 100% secure. If you become aware of a vulnerability, please email **brushupquiz@gmail.com**.
 
 ---
 
