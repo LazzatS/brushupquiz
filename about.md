@@ -4,7 +4,7 @@
 
 Create quizzes in seconds — or let AI draft them for you. Students join with a code or a QR scan. Results appear the moment the timer stops. No accounts, no email, no fuss.
 
-[**Get it on the App Store**](https://apps.apple.com/app/brushupquiz) <!-- Replace with your live App Store link once approved -->
+[**Get it on the App Store**](https://apps.apple.com/app/brushupquiz)
 
 ---
 
@@ -74,13 +74,13 @@ _(Screenshots appear in the App Store listing — see there.)_
 No. Just a nickname on first launch.
 
 **Do you collect email addresses?**
-No. See our [Privacy Policy](https://lazzats.github.io/brushup-legal/privacy).
+No. See our [Privacy Policy](https://lazzats.github.io/brushupquiz/privacy).
 
 **Is it free?**
 Yes, currently free with no in-app purchases and no advertising.
 
 **Does it work offline?**
-No — quizzes and results are synced through Firebase, so an internet connection is required.
+No — quizzes and results are synced over the internet, so a connection is required.
 
 **What devices are supported?**
 iPhone running iOS 17.0 or later.
@@ -90,7 +90,7 @@ iPhone running iOS 17.0 or later.
 ## Get in touch
 
 - **Support**: [brushupquiz@gmail.com](mailto:brushupquiz@gmail.com)
-- **Support page**: https://lazzats.github.io/brushup-legal/support <!-- update if you host support elsewhere -->
-- **Privacy Policy**: https://lazzats.github.io/brushup-legal/privacy
+- **Support page**: https://lazzats.github.io/brushupquiz/support
+- **Privacy Policy**: https://lazzats.github.io/brushupquiz/privacy
 
 Built with love — thank you for teaching.
