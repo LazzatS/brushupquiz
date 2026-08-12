@@ -10,7 +10,7 @@ Welcome to BrushUpQuiz support. Below are answers to common questions. If you do
 Open the app, pick a nickname, choose whether you're a **Student** or an **Instructor**, and tap **Continue**. That's it — no email or password required.
 
 ### Why doesn't BrushUpQuiz ask for my email?
-BrushUpQuiz is designed to be simple and privacy-first. We use anonymous device-scoped accounts, so we don't need your email. See our [Privacy Policy](https://lazzats.github.io/brushup-legal/privacy) for details.
+BrushUpQuiz is designed to be simple and privacy-first. We use anonymous device-scoped accounts, so we don't need your email. See our [Privacy Policy](https://lazzats.github.io/brushupquiz/privacy) for details.
 
 ### I switched phones and lost my quizzes / history. Is there a way to restore them?
 Anonymous accounts are stored on the device you signed up on. Reinstalling the app or switching devices creates a fresh account. This trade-off is what lets us keep sign-in email-free. There is currently no cross-device restore.
@@ -64,7 +64,7 @@ BrushUpQuiz needs an internet connection to run and answer quizzes. Reconnect to
 Force-quit the app (swipe up from the bottom of the screen and swipe BrushUpQuiz away), then reopen it. If it happens repeatedly, delete the app and reinstall.
 
 ### The AI Generator says "Something went wrong."
-The AI service is provided by Google Firebase. Occasional service hiccups happen — wait a minute and try again. If it keeps failing, email us.
+The AI service occasionally has hiccups. Wait a minute and try again. If it keeps failing, email us.
 
 ---
 
@@ -82,4 +82,4 @@ We take bug reports and feature requests seriously. Please email **brushupquiz@g
 ## Contact
 
 **Email**: brushupquiz@gmail.com
-**Privacy Policy**: https://lazzats.github.io/brushup-legal/privacy
+**Privacy Policy**: https://lazzats.github.io/brushupquiz/privacy
