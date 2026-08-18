@@ -4,7 +4,7 @@
 
 Create quizzes in seconds — or let AI draft them for you. Students join with a code or a QR scan. Results appear the moment the timer stops. No accounts, no email, no fuss.
 
-[**Get it on the App Store**](https://apps.apple.com/app/brushupquiz)
+[**Get it on the App Store**](https://apps.apple.com/kz/app/brushupquiz/id6787199476)
 
 ---
 
